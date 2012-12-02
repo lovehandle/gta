@@ -1,4 +1,0 @@
-.alpha-shadow #page {
-  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/shadow2.png', sizingMethod='crop');
-  background: none;
-}

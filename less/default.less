@@ -1,0 +1,281 @@
+body {
+  font-size: 100% !important;
+  font-size: 80%;
+  margin: 0;
+  padding: 0 0 20px;
+
+  &.home {
+    #content p img {
+      float: left;
+    }
+  }
+}
+
+#container {
+  width: 800px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  position: relative;
+}
+
+.alpha-shadow {
+  width: 800px;
+  float: left;
+  background: url(../images/shadow.gif) no-repeat bottom right;
+  margin: 10px 0 0 10px !important;
+  margin: 10px 0 0 5px;
+}
+
+#page {
+  background: url(../images/shadow2.png) no-repeat left top !important;
+  background: url(img/shadow2.gif) no-repeat left top;
+  padding: 0px 5px 5px 0px;
+}
+
+#box {
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  padding: 4px;
+}
+
+#banner {
+  background: url(../images/globe-lines.gif) no-repeat -200px -30px;
+  padding: 5px;
+  margin-bottom: 2px;
+  background-color: rgb(149, 147, 131);
+  position: relative;
+
+  p {
+    text-align: center;
+
+    img {
+      margin-left: -300px;
+    }
+  }
+}
+
+#tagline {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  margin: 0;
+  padding: 0;
+
+  h2 {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.9em;
+    text-transform: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: right;
+  }
+}
+
+#skipper {
+  display: none;
+}
+
+#navigation, #extranav {
+  ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li.active, li:hover {
+    a {
+      color: white;
+      background-color: black;
+    } 
+  }
+}
+
+#navigation {
+  font-size: 0.65em !important;
+  font-size: 0.83em;
+  font-family: "Gill Sans", Helvetica, Verdana, Arial, sans-serif;
+  height: 2em;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(111, 109, 89);
+  position: relative;
+
+  ul {
+     height: auto !important;
+     height: 2em;
+     min-height: 2em;
+     border-left: 1px solid;
+     border-color: rgb(149, 147, 131);
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+  }
+
+  li {
+    display: block;
+    float: left;
+    border: 1px solid;
+    border-left: none;
+    border-color: rgb(149, 147, 131);
+
+    a {
+      color: rgb(149, 147, 131);
+      display: block;
+      float: left;
+      padding: 5px;
+      background-color: rgb(111, 109, 89);
+      text-decoration: none;
+    }
+  }
+}
+
+#extranav {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+
+  ul {
+    text-align: right;
+    width: 180px;
+  }
+
+  li {
+    display: inline;
+
+    a {
+      color: #333;
+      text-transform:uppercase;
+      padding: 3px;
+      text-decoration: none;
+      font-size: 0.8em;
+    }
+  }
+}
+
+#content {
+  h1, h2 {
+    font: normal 1.5em/1.7em Exlebris, StonePrint, Georgia, Times, "Times New Roman", serif;
+    text-transform: uppercase;
+    margin: 0 15px;
+    padding: 0;
+    color: rgb(42, 147, 36);
+  }
+
+  h2 {
+    font-size: 1.2em;
+    line-height: 1.3em;
+  }
+
+  p, li {
+    line-height: 1.3;
+    margin: 0 15px;
+    padding: 0;
+  }
+
+  p {
+    margin: 0 15px 1em 15px;
+
+    &.phone {
+      text-transform: uppercase;
+    }
+
+    img {
+      border: 1px solid rgb(111, 109, 89);
+      display: inline;
+      float: right;
+      margin: 10px;
+    }
+
+    a.pdf {
+      background: url(../images/icon-pdf-small.gif) no-repeat left top;
+      padding-left: 20px;
+    }
+  }
+
+  ul {
+    margin: 0 0 1em 15px;
+
+    ul {
+      margin: 0 0 0 0px;
+    }
+  }
+}
+
+#expertise {
+  background-color: rgb(149, 147, 131);
+  float: right;
+  display: inline;
+  font-size: 0.8em;
+  border: 1px solid black;
+  width: 180px;
+  margin-right: -60px;
+  margin-left: 20px;
+
+  h3 {
+    color: #fff;
+    margin: 10px 0 0 10px;
+    padding: 0;
+    font-size: 1.4em;
+    font-weight: normal;
+  }
+
+  ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+  }
+
+  ul {
+    margin: 0 10px 10px 30px;
+  }
+
+  p.brochure {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    word-spacing: 1px;
+    color:#CCFFCC;
+    padding: 3px;
+    border: 1px solid #336600;
+    background:#669966 url(../images/brochure-shade.png) repeat-x left top;
+    margin: 5px;
+
+    a, a:link, a:visited, a:active {
+      color: #B79999;
+    }
+  }
+}
+
+#footer {
+  color: #fff;
+  clear: both;
+  padding: 5px;
+  margin-top: 0;
+  font-size: 0.7em !important;
+  font-size: 0.8em;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+
+  p {
+    &.strong {
+      font-size: 1.4em;
+      font-weight: normal;
+    }
+
+    em {
+      display: block;
+      font-style: normal;
+    }
+  }
+}
